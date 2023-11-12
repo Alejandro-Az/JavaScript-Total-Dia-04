@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="calculos.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+    <div class="numbers">
+        <input type="number" name="" id="numberOne">
+        <input type="number" name="" id="numberTwo">
+    </div>
+    
+    <div class="operations">
+        <button onclick="suma();">+</button>
+        <button onclick="resta();">-</button>
+        <button onclick="multiplicacion();">x</button>
+        <button onclick="division();">/</button>
+    </div>
+
+    <div class="functions">
+        <button onclick="power();">POTENCIA</button>
+        <button onclick="root();">RAIZ</button>
+        <br>
+        <button onclick="absolute();">ABSOLUTO</button>
+        <button onclick="rand();">RANDOM</button>
+    </div>
+
+    <input type="result" name="" id="response">
+
+    <div class="roundTypes">
+        <button onclick="redondear();">ROUND</button>
+        <button onclick="piso();">FLOOR</button>
+        <button onclick="techo();">CEIL</button>
+    </div>
+    </div>
+</body>
+</html>
